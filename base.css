@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.siteHolder {
+    display: grid;
+    /*for entaire page*/
+    grid-template-columns: 50% 50%; 
+    grid-row: 1/4;
+    grid-gap: 5px;
+    height: 100vh;
+}
+.rightSide{
+    display: grid;
+    grid-template-rows: 100% ;
+}
+.rightSideHolder {
+    display: grid;
+    grid-template-rows: 33.33% 33.33% 33.33%; 
+
+}
+.rightSideHolder div {
+    align-items: center;
+    justify-items: center;
+}
+
+div{
+    border: 1px solid red;
+}
